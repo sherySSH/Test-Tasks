@@ -17,9 +17,9 @@ void downloadOnThread(const string URI, const string path, const string filename
 int main() {
 
 	//progress bar
-	int progress = 0;
+	double progress = 0;
 	//total number of images
-	const int totalImg = 3;
+	const double totalImg = 3;
 
 	const string firstImage = "https://ichef.bbci.co.uk/news/976/cpsprodpb/313F/production/_114270621_mainimage.jpg";
 	const string secondImage = "https://honeydoze.com/wp-content/uploads/2019/03/InfinityWar5aabd55fed5fa.jpg";
