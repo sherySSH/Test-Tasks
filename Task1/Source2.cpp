@@ -46,17 +46,17 @@ int main() {
 	//joinable
 	int key1 =0, key2=0, key3 = 0;
 	while (1) {
-		cout << "Download Progress : " << 100*(progress / totalImg) << endl;
+		cout << "Download Progress : " << 100 * (progress / totalImg) << endl;
 		if (t1.joinable() && !key1) {
 			progress++;
 			key1 = 1;
 		}
-		cout << "Download Progress : " << 100 * (progress / totalImg) << endl;
+		
 		if (t2.joinable() && !key2) {
 			progress++;
 			key2 = 1;
 		}
-		cout << "Download Progress : " << 100 * (progress / totalImg) << endl;
+		
 		if (t3.joinable() && !key3) {
 			progress++;
 			key3 = 1;
