@@ -1,0 +1,3 @@
+This folder contains the two file "client" and "server" for task 2. Socket Programming is done using POCO C++ Framework.
+To integrate POCO C++ framework, first of all download "vcpkg" through gitbash.
+Then use vcpkg to download POCO framwework and perform user-wide configuration so that framework libraries can be accessed using VS Studio.
